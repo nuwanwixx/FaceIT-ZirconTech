@@ -15,7 +15,7 @@ namespace FaceIT2
         {
             var customMap = new CustomMap
             {
-                MapType = MapType.Street,
+               
                 WidthRequest = 400,
                 HeightRequest =300
             };

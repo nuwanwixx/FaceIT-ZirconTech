@@ -14,7 +14,7 @@
 
         </Button>
         <local:CustomMap x:Name=" MainMap"
-                  WidthRequest="400" HeightRequest="300" MapType="Street"  />
+                  WidthRequest="400" HeightRequest="300"   />
 
     </StackLayout>
     
