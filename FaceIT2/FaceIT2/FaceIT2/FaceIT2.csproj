@@ -39,15 +39,18 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Contact.cs" />
+    <Compile Include="CustomCircle.cs" />
+    <Compile Include="CustomMap.cs" />
     <Compile Include="FaceSearchPage.xaml.cs">
       <DependentUpon>FaceSearchPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="ForgetPasswordPage.xaml.cs">
       <DependentUpon>ForgetPasswordPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="LocationSearchPage.xaml.cs">
+    <Compile Include=".xaml.cs">
       <DependentUpon>LocationSearchPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="LocationSearchCS.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>

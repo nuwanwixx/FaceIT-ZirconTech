@@ -2,9 +2,9 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FaceIT2.LocationSearchPage"
-              xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps">
-    
-        <StackLayout>
+              xmlns:local="clr-namespace:FaceIT2;assembly=FaceIT2">
+
+    <StackLayout>
         <Button x:Name="btnGetLocation"
                     BackgroundColor="Silver"
                     BorderColor="Black"
@@ -13,7 +13,7 @@
                     >
 
         </Button>
-        <maps:Map x:Name=" MainMap"
+        <local:CustomMap x:Name=" MainMap"
                   WidthRequest="400" HeightRequest="300" MapType="Street"  />
 
     </StackLayout>

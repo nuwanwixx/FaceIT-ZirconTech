@@ -39,22 +39,22 @@ namespace FaceIT2
             {
                 Type = PinType.Place,
                 Position = new Position(position.Latitude, position.Longitude),
-                Label = "Current location",
-                Address = "Address"
-
+                Label = "Xamarin San Francisco Office",
+                Address = "394 Pacific Ave, San Francisco CA"
             };
 
-
-            /*var positionMid = new Position(position.Latitude, position.Longitude);
+            var positionMid = new Position(position.Latitude, position.Longitude);
             MainMap.Circle = new CustomCircle
             {
                 Position = positionMid,
-                Radius = 1000
-            };*/
+                Radius = 1000,
+               
+                
+            };
+           
 
             MainMap.Pins.Add(pin);
-            MainMap.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(position.Latitude, position.Longitude), Distance.FromMiles(1)));
-
+            MainMap.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(position.Latitude, position.Longitude), Distance.FromMiles(1.0)));
         }
 
     }
